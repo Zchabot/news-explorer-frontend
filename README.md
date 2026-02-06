@@ -12,19 +12,19 @@ https://news-explorer-zc.port0.org
 
 ## 📸 Screenshots
 
-![alt text](./src/assets/demo/home-logged-out.png)
-![alt text](./src/assets/demo/home-logged-in.png)
-![alt text](./src/assets/demo/no-results.png)
-![alt text](./src/assets/demo/results.png)
-![alt text](./src/assets/demo/author-section.png)
-![alt text](./src/assets/demo/modal-1.png)
-![alt text](./src/assets/demo/modal-2.png)
-![alt text](./src/assets/demo/saved-articles.png)
-![alt text](./src/assets/demo/mobile-1.png)
-![alt text](./src/assets/demo/mobile-2.png)
-![alt text](./src/assets/demo/mobile-3.png)
-![alt text](./src/assets/demo/mobile-4.png)
-![alt text](./src/assets/demo/mobile-5.png)
+![Home Screen Logged Out](./src/assets/demo/home-logged-out.png)
+![Home Screen Logged In](./src/assets/demo/home-logged-in.png)
+![No Search Results Found](./src/assets/demo/no-results.png)
+![Search Results](./src/assets/demo/results.png)
+![About the Author](./src/assets/demo/author-section.png)
+![Sign Up](./src/assets/demo/modal-1.png)
+![Sign In](./src/assets/demo/modal-2.png)
+![Saved Articles](./src/assets/demo/saved-articles.png)
+![Mobile Home Screen](./src/assets/demo/mobile-1.png)
+![Mobile Sign In](./src/assets/demo/mobile-2.png)
+![Mobile Menu From Home Screen](./src/assets/demo/mobile-3.png)
+![Mobile Menu From Saved Articles](./src/assets/demo/mobile-4.png)
+![Mobile About The Author](./src/assets/demo/mobile-5.png)
 
 ---
 
