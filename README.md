@@ -56,7 +56,7 @@ The News Explorer frontend enables users to search current news via a third-part
 ## ⚙️ Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Zchabot/news-explorer-frontend.git
 npm install
 npm start
 ```
