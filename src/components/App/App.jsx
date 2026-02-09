@@ -82,6 +82,7 @@ function App() {
     return newDate;
   }
 
+  // Search flow: call 3rd-party API -> normalize results -> render cards + handle loading/errors
   const handleSearch = (keyword, form) => {
     const stopPreloader = () => {
       setSearching(false);
@@ -184,6 +185,7 @@ function App() {
     navigate("/");
   };
 
+  // On initial load: if a token exists, validate it and hydrate user + saved articles
   useEffect(() => {
     const jwt = getToken();
 
