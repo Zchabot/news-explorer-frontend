@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { scrollToTop } from "../../utils/scrollToTop";
 import "./Footer.css";
+import { scrollToTop } from "../../utils/scrollToTop";
+import resumePdf from "../../../public/files/Resume-Zachary_Chabot.pdf";
 
 function Footer() {
   return (
@@ -18,7 +19,7 @@ function Footer() {
               Home
             </Link>
             <a
-              href="../public/files/Resume-Zachary_Chabot.pdf"
+              href={resumePdf}
               target="_blank"
               rel="noopener noreferrer"
               className="footer__resume"
