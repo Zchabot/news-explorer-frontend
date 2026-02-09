@@ -17,6 +17,10 @@
   position: relative;
 }
 
+.input__field {
+  position: relative;
+}
+
 .input__element {
   display: block;
   width: 100%;
@@ -39,13 +43,41 @@
   line-height: 1.21;
   position: absolute;
   left: 0;
-  bottom: 14px;
+  bottom: -17px;
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   max-width: 356px;
+}
+
+.input__element_password-button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.input__element_visiblility-icon {
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.input__element_visiblility-icon:hover {
+  opacity: 0.7;
+}
+
+.input__element_visiblility-icon_visible {
+  opacity: 0.55;
 }
 
 @media screen and (max-width: 600px) {

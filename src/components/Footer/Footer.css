@@ -52,6 +52,7 @@
 }
 
 .footer__home {
+  text-decoration: none;
   width: fit-content;
   border: none;
   background-color: transparent;
@@ -69,7 +70,8 @@
   opacity: 0.6;
 }
 
-.footer__triple-ten {
+.footer__resume {
+  text-decoration: none;
   width: fit-content;
   border: none;
   background-color: transparent;
@@ -111,10 +113,10 @@
   opacity: 0.6;
 }
 
-.footer__facebook {
+.footer__linkedin {
   height: 24px;
   width: 24px;
-  background-image: url(../../assets/facebook.svg);
+  background-image: url(../../assets/linkedin.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,7 +126,7 @@
   transition: opacity 0.5s linear 0s;
 }
 
-.footer__facebook:hover {
+.footer__linkedin:hover {
   opacity: 0.6;
 }
 

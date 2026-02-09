@@ -1,6 +1,6 @@
 # News Explorer – Frontend
 
-React-based frontend for a full-stack MERN application that allows users to search, save, and manage news articles. Communicates with a REST API backend and provides a dynamic, state-driven UI.
+React-based frontend for a full-stack MERN application that allows users to search, save, and manage news articles. The interface communicates with a REST API backend and provides a dynamic, state-driven user experience.
 
 ---
 
@@ -12,6 +12,8 @@ https://news-explorer-zc.port0.org
 
 ## 📸 Screenshots
 
+These screenshots demonstrate the full user flow across desktop and mobile views.
+
 ![Home Screen Logged Out](./src/assets/demo/home-logged-out.png)
 ![Home Screen Logged In](./src/assets/demo/home-logged-in.png)
 ![No Search Results Found](./src/assets/demo/no-results.png)
@@ -20,11 +22,11 @@ https://news-explorer-zc.port0.org
 ![Sign Up](./src/assets/demo/modal-1.png)
 ![Sign In](./src/assets/demo/modal-2.png)
 ![Saved Articles](./src/assets/demo/saved-articles.png)
-![Mobile Home Screen](./src/assets/demo/mobile-1.png)
-![Mobile Sign In](./src/assets/demo/mobile-2.png)
-![Mobile Menu From Home Screen](./src/assets/demo/mobile-3.png)
-![Mobile Menu From Saved Articles](./src/assets/demo/mobile-4.png)
-![Mobile About The Author](./src/assets/demo/mobile-5.png)
+![Mobile Home Screen](./src/assets/demo/mobile-home.png)
+![Mobile Sign In](./src/assets/demo/mobile-sign-in.png)
+![Mobile Menu From Home Screen](./src/assets/demo/mobile-menu-home.png)
+![Mobile Menu From Saved Articles](./src/assets/demo/mobile-menu-saved.png)
+![Mobile About The Author](./src/assets/demo/mobile-author.png)
 
 ---
 
@@ -53,10 +55,40 @@ The News Explorer frontend enables users to search current news via a third-part
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Run Locally
+
+### Prerequisites
+
+- Node.js (v23.x recommended — npm included)
+- News Explorer backend running (see backend README)
+
+The frontend is configured to connect to the backend at:
+http://localhost:3002 when running locally.
+
+### Setup
 
 ```bash
 git clone https://github.com/Zchabot/news-explorer-frontend.git
+cd news-explorer-frontend
 npm install
-npm start
 ```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+The app will run at:
+http://localhost:3000
+
+### API Configuration
+
+The frontend automatically connects to:
+
+- `http://localhost:3002` during local development
+- The deployed backend API in production builds
+
+To use a different backend, update the `baseUrl` configuration in:
+
+`src/utils/constants.js`

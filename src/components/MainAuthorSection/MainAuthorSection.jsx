@@ -10,12 +10,13 @@ function MainAuthorSection() {
           <h2 className="main__author-title">About the author</h2>
           <div className="main__author-description"></div>
           <p className="main__author-description-paragraph">
-            My name is Zachary Chabot. I am a full stack software engineer with
-            experience building web applications using a MERN stack.
+            My name is Zachary Chabot. I am a full-stack developer focused on
+            building scalable, user-centered web applications using the MERN
+            stack.
           </p>
           <p className="main__author-description-paragraph">
-            At Triple Ten I used technologies including HTML5, CSS, Javascript,
-            JSX, React.js, Node.js, Express.js, and MongoDB.
+            I use HTML5, CSS, JavaScript, React, Node.js, Express, and MongoDB
+            to build responsive interfaces and reliable backend systems.
           </p>
         </div>
       </div>
