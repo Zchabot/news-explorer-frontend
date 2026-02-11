@@ -18,7 +18,7 @@ function Footer() {
               Home
             </Link>
             <a
-              href="/public/Zachary_Chabot_Resume.pdf"
+              href="/Zachary_Chabot_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="footer__resume"
